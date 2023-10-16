@@ -68,12 +68,12 @@ int main(void) {
   char ch='y';
   int ele;
   struct node *root=NULL;
+  printf("Enter 1 for insertion\n");
+  printf("Enter 2 for deletion\n");
+  printf("Enter 3 for inorder traversal\n");
+  printf("Enter 4 for preorder traversal\n");
+  printf("Enter 5 for postorderorder traversal\n");
   while(ch=='y'){
-    printf("Enter 1 for insertion\n");
-    printf("Enter 2 for deletion\n");
-    printf("Enter 3 for inorder traversal\n");
-    printf("Enter 4 for preorder traversal\n");
-    printf("Enter 5 for postorderorder traversal\n");
     int choice;
     printf("Enter the choice: ");
     scanf("%d",&choice);
